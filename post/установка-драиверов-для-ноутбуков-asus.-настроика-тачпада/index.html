@@ -926,7 +926,7 @@
 <h2 id="asusctl">Asusctl</h2>
 <p>AsusCtl — утилита для Linux, для управления ноутбуков ASUS: установку пользовательского предела заряда, изменение системных профилей питания, настройку пользовательских кривых вращения вентилятора, управление подсветкой клавиатуры. Предназначена для серии ROG, но можно использовать часть функционала на других сериях ноутбуков.</p>
 <p><a href="https://github.com/flukejones/asusctl" target="_blank" rel="noopener">Репозиторий github</a></p>
-<h2 id="установка-asusctl">Установка asusctl</h2>
+<p><strong>Установка asusctl</strong></p>
 <ul>
 <li>
 <p>Fedora copr = <a href="https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/" target="_blank" rel="noopener">Copr</a></p>
@@ -941,7 +941,72 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">su -
 </span></span><span class="line"><span class="cl">apt-get update
 </span></span><span class="line"><span class="cl">apt-get install asusctl
-</span></span></code></pre></div><h2 id="heading"></h2>
+</span></span></code></pre></div><h2 id="asus-linux-drivers">Asus linux drivers</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image/104.jpg" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Неофициальный набор Linux драйверов для ноутбуков Asus и аксессуаров.</p>
+<p><a href="https://github.com/asus-linux-drivers" target="_blank" rel="noopener">Репозиторий github</a></p>
+<p><strong>asus-numberpad-driver</strong></p>
+<p>Поддерживаемый многофункциональный драйвер Linux для NumberPad (2.0) на ноутбуках Asus.  NumberPad (2.0) — это цифровая клавиатура с подсветкой, интегрированная в сенсорную панель, которая появляется, когда вы нажимаете в правом верхнем углу сенсорной панели не менее 1 секунды по умолчанию (настраивается) или проводите жестом из верхнего правого угла в центр (настраивается).</p>
+<p><strong>Установка</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git clone https://github.com/asus-linux-drivers/asus-numberpad-driver
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> asus-numberpad-driver
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">bash install.sh
+</span></span></code></pre></div><p>Драйвер будет установлен автоматически, нужно лишь отвечать на вопросы установочного скрипта, а затем перезагрузить устройство</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="NumberPad полноценно работает после установки" srcset="
+               /post/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D1%80%D0%B0%D0%B8%D0%B2%D0%B5%D1%80%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%BE%D0%B2-asus.-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D0%BA%D0%B0-%D1%82%D0%B0%D1%87%D0%BF%D0%B0%D0%B4%D0%B0/photo_2024-04-06_11-46-26_hua95a8e10cac3583f49f289c724a421a4_120993_a07d2f9180e4bc305de8e802665aa9ee.webp 400w,
+               /post/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D1%80%D0%B0%D0%B8%D0%B2%D0%B5%D1%80%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%BE%D0%B2-asus.-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D0%BA%D0%B0-%D1%82%D0%B0%D1%87%D0%BF%D0%B0%D0%B4%D0%B0/photo_2024-04-06_11-46-26_hua95a8e10cac3583f49f289c724a421a4_120993_ad3980fa44ba307fab3d10d05b8bb813.webp 760w,
+               /post/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D1%80%D0%B0%D0%B8%D0%B2%D0%B5%D1%80%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%BE%D0%B2-asus.-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D0%BA%D0%B0-%D1%82%D0%B0%D1%87%D0%BF%D0%B0%D0%B4%D0%B0/photo_2024-04-06_11-46-26_hua95a8e10cac3583f49f289c724a421a4_120993_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/post/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D1%80%D0%B0%D0%B8%D0%B2%D0%B5%D1%80%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%BE%D0%B2-asus.-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D0%BA%D0%B0-%D1%82%D0%B0%D1%87%D0%BF%D0%B0%D0%B4%D0%B0/photo_2024-04-06_11-46-26_hua95a8e10cac3583f49f289c724a421a4_120993_a07d2f9180e4bc305de8e802665aa9ee.webp"
+               width="760"
+               height="570"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p><strong>asus-wmi-hotkeys-driver</strong></p>
+<p>Настраиваемый драйвер Linux для горячих клавиш Asus WMI.  Драйвер работает как посредник, прослушивает ключевые события от конкретных устройств, и когда соответствующее ключевое событие перехватывается, его можно обрабатывать собственным способом, настроенным в файле конфигурации.</p>
+<p><strong>Установка</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git clone https://github.com/asus-linux-drivers/asus-wmi-hotkeys-driver
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> asus-wmi-hotkeys-driver
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ bash install.sh
+</span></span></code></pre></div><p>Драйвер будет установлен автоматически, нужно лишь отвечать на вопросы установочного скрипта, а затем перезагрузить устройство</p>
 
     </div>
 
