@@ -5,12 +5,74 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Оформление отчетов по лабораторным работам</title>
+      <link>https://example.com/post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;jpg&#34; srcset=&#34;
+               /post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/markdown_hu81095872dc16ef94e3ec8eaf6d08dd7f_6519_a7c1d61221454ca861532bb80feb4c82.webp 400w,
+               /post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/markdown_hu81095872dc16ef94e3ec8eaf6d08dd7f_6519_f674e43769a1525e31ca15c4f20d3ae3.webp 760w,
+               /post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/markdown_hu81095872dc16ef94e3ec8eaf6d08dd7f_6519_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/post/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0/markdown_hu81095872dc16ef94e3ec8eaf6d08dd7f_6519_a7c1d61221454ca861532bb80feb4c82.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;399&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;задача&#34;&gt;Задача&lt;/h2&gt;
+&lt;p&gt;Необходимо максимально продуктивно оформлять отчеты по лабораторным работам с использованием языка разметки markdown, а затем одной командой конвертировать его в различные форматы (docx, pdf).&lt;/p&gt;
+&lt;p&gt;Воспользуемся шаблоном отчета academic-laboratory-report-template&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yamadharma/academic-laboratory-report-template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий github&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;необходимое-по-для-работы&#34;&gt;Необходимое ПО для работы&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;TeX Live&lt;/li&gt;
+&lt;li&gt;Pandoc&lt;/li&gt;
+&lt;li&gt;Pandoc-crossref&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;TeXLive&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TeX Live — наиболее полный дистрибутив LaTeX, поддерживаемый TeX-сообществом. TeX Live позволяет запускать и устанавливать LaTeX на различных операционных системах. В число поддерживаемых систем входят множество Unix-подобных, включая Linux, а также Mac OS X и Microsoft Windows.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tug.org/texlive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сайт проекта с инструкциями по установке&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TeXLive доступен в репозиториях различных дистрибутивов в нескольких вариантах.
+Например, на Fedora Linux можно установить 3 различных &amp;ldquo;комплектации&amp;rdquo;: basic, medium, full.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf install texlive-scheme-basic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf install texlive-scheme-medium
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf install texlive-scheme-full
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://docs.fedoraproject.org/en-US/neurofedora/latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Документация FedoraDocs (Latex)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pandoc&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pandoc — универсальная утилита для работы с текстовыми форматами. Основная сфера применения — форматирование математических и технических текстов. Входные форматы: markdown, reStructuredText, HTML, LaTeX, OPML, Org-mode, DocBook, и Office Open XML.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pandoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Сайт Pandoc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jgm/pandoc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pandoc-crossref&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lierdakil/pandoc-crossref&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Репозиторий Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Важно! Версии Pandoc и Pandoc-crossref должны быть совместимы между собой. Обращайте внимание в описаниие релиза.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Легковесные языки разметки</title>
@@ -399,7 +461,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-217859364&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-597814236&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -409,7 +471,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-217859364&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-597814236&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
